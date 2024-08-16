@@ -1,12 +1,3 @@
-// ¿Como utilizarlo?
-// Utiliza estos comandos
-// apt-get install g++
-// g++ -o samp Firewall-SAMP.cpp
-// Ejecuta el script con ./samp
-// Ejecutarlo en segundo plano: nohup ./samp &
-// Eliminarlo de segundo plano: pkill samp
-// Se agregaran actualizaciones con el tiempo
-
 #include <iostream>
 #include <string.h>
 #include <unistd.h>
