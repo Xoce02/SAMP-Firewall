@@ -11,10 +11,11 @@
 
 ## Cómo Compilar
 
-1. Guarda el código en un archivo llamado `SAMP-Firewall.cpp`.
-2. Abre una terminal y navega al directorio donde guardaste el archivo.
+1. Guarda el archivo llamado `SAMP-Firewall.cpp` en tu servidor.
+2. Instala C++ con el comando .
+    ```bash
+       apt install g++
 3. Compila el código con el siguiente comando:
-
    ```bash
    g++ -o SAMP-Firewall SAMP-Firewall.cpp
 
