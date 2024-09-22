@@ -4,10 +4,18 @@
 
 ## Características
 
-- **Filtrado de Paquetes UDP**: Verifica si el paquete es UDP y está destinado al puerto 7777.
-- **Rango de Puertos Permitidos**: Descarta paquetes cuyo puerto de origen está fuera del rango dinámico permitido (49152-65535).
-- **Filtrado de Consultas**: Bloquea paquetes con ciertos tipos de consultas (`c`, `d`, `x`) y aplica un límite de tasa para otros tipos (`r`, `i`, `p`).
+- **Filtrado de Paquetes UDP**: Captura y filtra paquetes UDP dirigidos al puerto 7777.
+- **Rango de Puertos Permitidos**: Descarta paquetes cuyo puerto de origen esté fuera del rango dinámico permitido (49152-65535).
+- **Verificación de Consultas**: 
+  - Bloquea paquetes con ciertos tipos de consultas (`c`, `d`, `x`).
+  - Aplica un límite de tasa para otros tipos de consultas (`r`, `i`, `p`).
 - **Límite de Tasa**: Permite hasta 10 paquetes por segundo desde una IP específica.
+- **Verificación de TTL y Longitud**: Descarta paquetes con TTL de 128 y longitud entre 17 y 604 bytes.
+
+## Futuras Actualizaciones
+
+- **Mitigación del Ataque Cookies Flood**: En futuras versiones, el firewall incluirá un mecanismo avanzado para detectar y mitigar ataques de **cookies flood**, mejorando la protección contra este vector de ataque dirigido a servidores SA:MP.
+- **Mejora en la Detección de Bots**: Se implementarán algoritmos más avanzados para diferenciar entre bots y usuarios legítimos, basados en el análisis de comportamiento del tráfico.
 
 ## Cómo Compilar
 
