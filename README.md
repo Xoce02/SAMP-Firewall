@@ -1,3 +1,8 @@
+# ⚠️ **Notice: Repository Outdated**
+
+This repository is currently **outdated** and is undergoing **updates and improvements**.  
+We appreciate your patience while we work on enhancing its features and functionality.
+
 # SAMP-Firewall
 
 "SAMP-Firewall" es un filtro de paquetes UDP diseñado para analizar y filtrar paquetes dirigidos al puerto 7777. El programa está escrito en C++ y utiliza sockets raw para capturar y procesar paquetes en un VPS Linux. 
