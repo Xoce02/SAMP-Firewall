@@ -1,3 +1,4 @@
+#include <linux/in.h>
 #include <linux/bpf.h>
 #include <linux/if_ether.h>
 #include <linux/ip.h>
